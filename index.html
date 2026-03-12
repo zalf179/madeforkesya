@@ -1,7 +1,31 @@
 
 <!DOCTYPE html>
 <html>
+<style>
+    /* Ukuran sweet spot: Besar tapi tetap estetik */
+    .content-display p[style], 
+    div.content-display p, 
+    #content-display p {
+        font-size: 24px !important; /* Turun ke 24px agar lebih pas */
+        line-height: 1.4 !important;
+        font-weight: 600 !important;
+        text-align: center !important;
+        margin: 0 !important;
+        padding: 0 10px !important;
+    }
 
+    /* Penyesuaian wadah box agar simetris */
+    .content-display {
+        width: 82% !important;
+        min-height: 100px !important;
+        max-height: 250px !important;
+        padding: 20px 15px !important;
+        border-radius: 18px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+</style>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -341,4 +365,5 @@
 </body>
 
 </html>
+
 
